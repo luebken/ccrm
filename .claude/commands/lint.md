@@ -1,0 +1,1 @@
+Check the schema of the CRM files with `make lint`
