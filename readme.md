@@ -21,17 +21,32 @@ by [@dexhorthy](https://github.com/dexhorthy). [See Claude for non-code tasks: ð
 
 ## Getting Started
 
-The project contains synthetic sample data under /crm
+Prerequisites: `uv` and `pnpn` to install further dependencies and run scripts.
 
-```bash
+The project contains synthetic sample data under `./crm` so its easy to give it a try:
+
+```sh
 git clone git@github.com:luebken/ccrm.git
 cd ccrm
 
 claude .
+/plugin marketplace add anthropics/skills
+/plugin install document-skills@anthropic-agent-skills
+
+# retart Claude to load plugins
+claude .
+```
+
+Some examples commands:
+```sh
+> Im Sarah Chen. Which deals require my attention?
+
+> Create a PDF report of the latest deals.
 
 > /lint
-> Im Sarah Chen. Which deals require my attention?
 ```
+
+
 
 ## Entity Structure
 
