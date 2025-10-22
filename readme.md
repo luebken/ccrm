@@ -56,6 +56,16 @@ The Markdown/front matter integration works nicely with Markdown-based tools lik
 ![obsidian.png](obsidian.png)
 
 
+## Development
+
+The default `CLAUDE.md` is for working with this project as a CRM. For development there is `DEV.md`. Since Claude Code currently reads `CLAUDE.md` by default you need to switch manually:
+
+```bash
+mv CLAUDE.md CLAUDE.md.orig
+mv DEV.md CLAUDE.md
+claude .
+```
+
 ## TODO
 
 - [ ] Add AI entity summaries at file beginning
