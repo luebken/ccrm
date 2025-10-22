@@ -5,7 +5,7 @@ email: mikko.virtanen@wolt.com
 phone: +358-40-123-4567
 title: Engineering Manager
 company: "[[companies/wolt]]"
-deals: []
+opportunities: []
 owner: Lisa Wang
 tags: [food-delivery, finland, logistics, engineering-management]
 created_at: "2023-11-28"

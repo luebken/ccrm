@@ -6,7 +6,7 @@ size: 1000+
 revenue: €81B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +49 228 182 0
 address: Charles-de-Gaulle-Straße 20, 53113 Bonn, Germany

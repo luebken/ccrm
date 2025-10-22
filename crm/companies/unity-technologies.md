@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.4B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (415) 539-3162
 address: 30 3rd Street, San Francisco, CA 94103, USA

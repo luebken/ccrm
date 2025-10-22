@@ -8,7 +8,7 @@ contacts:
   - "[[contacts/miller-dave]]"
   - "[[contacts/davis-michelle]]"
 company: "[[companies/crowdstrike]]"
-deal: "[[deals/crowdstrike-2024-q2-threat-intelligence]]"
+opportunity: "[[opportunities/crowdstrike-2024-q2-threat-intelligence]]"
 owner: James Thompson
 outcome: Partnership framework established
 next_action: Develop joint solution prototype

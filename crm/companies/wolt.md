@@ -6,7 +6,7 @@ size: 1000+
 revenue: €1B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +358 10 322 8000
 address: Arkadiankatu 2, 00100 Helsinki, Finland

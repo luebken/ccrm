@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.3B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (646) 727-4092
 address: 1633 Broadway, 38th Floor, New York, NY 10019, USA

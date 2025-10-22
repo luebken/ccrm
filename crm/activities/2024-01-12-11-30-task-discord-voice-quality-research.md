@@ -6,7 +6,7 @@ status: completed
 contacts:
   - "[[contacts/anderson-kyle]]"
 company: "[[companies/discord]]"
-deal: "[[deals/discord-2024-q2-voice-quality]]"
+opportunity: "[[opportunities/discord-2024-q2-voice-quality]]"
 owner: Sarah Chen
 outcome: Requirements documented, technical challenges identified
 next_action: Schedule technical deep-dive meeting

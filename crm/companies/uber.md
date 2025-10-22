@@ -7,7 +7,7 @@ revenue: $37B+
 type: prospect
 contacts:
   - "[[contacts/liu-jenny]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 address: 1515 3rd St, San Francisco, CA 94158
 tags: [rideshare, logistics, global]

@@ -4,7 +4,7 @@ last_name: Davidson
 email: sarah.davidson@blend.com
 title: Engineering Manager
 company: "[[companies/blend]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 tags: [fintech, mortgage, engineering-management]
 created_at: "2024-01-10"

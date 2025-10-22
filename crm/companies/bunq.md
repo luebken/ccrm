@@ -6,7 +6,7 @@ size: 201-500
 revenue: €50M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +31 20 460 0116
 address: Naritaweg 131-133, 1043 BW Amsterdam, Netherlands

@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $200M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +49 30 467260
 address: Unter den Linden 42, 10117 Berlin, Germany

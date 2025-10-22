@@ -6,7 +6,7 @@ size: 201-500
 revenue: €100M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +33 1 84 13 00 00
 address: 8 Rue de la Ville l'Évêque, 75008 Paris, France

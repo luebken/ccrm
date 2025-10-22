@@ -6,7 +6,7 @@ size: 1000+
 revenue: $300M+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +1 (844) 732-3791
 address: 600 Townsend Street, San Francisco, CA 94103, USA

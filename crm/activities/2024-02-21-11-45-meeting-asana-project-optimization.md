@@ -8,7 +8,7 @@ contacts:
   - "[[contacts/wong-alice]]"
   - "[[contacts/harris-daniel]]"
 company: "[[companies/asana]]"
-deal: "[[deals/asana-2024-q1-project-optimization]]"
+opportunity: "[[opportunities/asana-2024-q1-project-optimization]]"
 owner: James Thompson
 outcome: Team productivity insights requirements validated
 next_action: Provide project analytics ROI analysis

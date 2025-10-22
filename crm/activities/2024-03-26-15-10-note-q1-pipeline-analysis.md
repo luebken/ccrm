@@ -5,7 +5,7 @@ date: "2024-03-26 15:10"
 status: completed
 contacts: []
 company: ""
-deal: ""
+opportunity: ""
 owner: Sarah Chen
 tags: ["pipeline-analysis", "forecast", "quarterly-review"]
 created_at: "2024-03-26"

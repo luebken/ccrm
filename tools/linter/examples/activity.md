@@ -7,7 +7,7 @@ status: completed
 contacts:
   - "[[contacts/johansson-erik]]"
 company: "[[companies/payflow]]"
-deal: "[[deals/payflow-2024-q2-nordic]]"
+opportunity: "[[opportunities/payflow-2024-q2-nordic]]"
 owner: James Thompson
 outcome: Requirements clarified, budget discussion
 next_action: Send pricing proposal by March 20
@@ -16,7 +16,7 @@ created_at: 2024-03-14
 
 # PayFlow Requirements Follow-up Call
 
-Quick call with [[contacts/johansson-erik|Erik]] to clarify technical requirements for [[deals/payflow-2024-q2-nordic|Nordic payment monitoring]].
+Quick call with [[contacts/johansson-erik|Erik]] to clarify technical requirements for [[opportunities/payflow-2024-q2-nordic|Nordic payment monitoring]].
 
 Erik explained their architecture better - they have payment processing across Sweden, Norway, and Denmark with different compliance requirements per country. About 50K transactions daily now but expecting rapid growth.
 

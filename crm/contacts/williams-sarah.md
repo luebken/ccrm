@@ -5,7 +5,7 @@ email: sarah.williams@netflix.com
 phone: +1-408-540-3700
 title: Senior Infrastructure Engineer
 company: "[[companies/netflix]]"
-deals: ["[[deals/netflix-2024-q2-streaming-monitoring]]"]
+opportunities: ["[[opportunities/netflix-2024-q2-streaming-monitoring]]"]
 owner: Sarah Chen
 tags: [streaming, content-delivery, infrastructure, entertainment]
 created_at: "2024-01-05"

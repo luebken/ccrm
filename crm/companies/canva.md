@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.4B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +61 2 8188 3732
 address: 110 Kippax Street, Surry Hills NSW 2010, Australia

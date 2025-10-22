@@ -6,7 +6,7 @@ size: 1000+
 revenue: $200M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (206) 800-8080
 address: 333 Elliott Avenue W, Suite 500, Seattle, WA 98119, USA

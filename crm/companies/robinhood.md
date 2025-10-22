@@ -5,7 +5,7 @@ industry: Financial Technology
 size: 1000+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 address: 85 Willow Rd, Menlo Park, CA 94025
 tags: [fintech, trading, mobile]

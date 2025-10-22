@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $100M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (415) 301-2800
 address: 2300 Harrison Street, San Francisco, CA 94110, USA

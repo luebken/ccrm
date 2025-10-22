@@ -5,7 +5,7 @@ industry: Food Delivery
 size: 1000+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1-650-681-9470
 created_at: "2023-10-12"

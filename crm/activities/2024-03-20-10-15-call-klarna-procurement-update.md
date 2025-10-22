@@ -7,7 +7,7 @@ status: completed
 contacts:
   - "[[contacts/andersson-erik]]"
 company: "[[companies/klarna]]" 
-deal: "[[deals/klarna-2024-q2-payments]]"
+opportunity: "[[opportunities/klarna-2024-q2-payments]]"
 owner: James Thompson
 outcome: Procurement timeline clarified
 next_action: Provide additional security documentation

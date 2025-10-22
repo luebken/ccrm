@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.1B+
 type: vendor
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (800) 914-1220
 address: 805 Broadway Street, Vancouver, WA 98660, USA

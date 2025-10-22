@@ -7,8 +7,8 @@ type: prospect
 contacts:
   - "[[contacts/andersson-erik]]"
   - "[[contacts/larsson-gustav]]"
-deals:
-  - "[[deals/klarna-2024-q2-payments]]"
+opportunities:
+  - "[[opportunities/klarna-2024-q2-payments]]"
 owner: James Thompson
 address: Sveavägen 46, 111 34 Stockholm, Sweden
 tags: [fintech, payments, buy-now-pay-later]

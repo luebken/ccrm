@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.7B+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (844) 482-7768
 address: 25 1st Street, Cambridge, MA 02141, USA

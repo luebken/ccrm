@@ -5,7 +5,7 @@ industry: Food Delivery
 size: 201-500
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 tags: [acquired, uber-eats, legacy-account, logistics]
 created_at: "2022-08-12"

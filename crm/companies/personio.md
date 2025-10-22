@@ -6,7 +6,7 @@ size: 1000+
 revenue: €150M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +49 89 143291 0
 address: Rundfunkplatz 2, 80335 Munich, Germany

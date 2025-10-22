@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +90 850 222 4348
 address: Rüzgarlıbahçe, Özalp Sk. No:7, 34805 Beykoz, Istanbul, Turkey

@@ -6,7 +6,7 @@ size: 1000+
 revenue: $500M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (866) 832-3090
 address: 2950 S Delaware Street, San Mateo, CA 94403, USA

@@ -6,7 +6,7 @@ size: 201-500
 revenue: €1.6B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +358 20 7434 800
 address: Itämerenkatu 14, 00180 Helsinki, Finland

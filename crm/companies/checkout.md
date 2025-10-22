@@ -6,7 +6,7 @@ size: 1000+
 revenue: £200M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +44 20 3695 7500
 address: 90 Tottenham Court Road, London W1T 4TJ, UK

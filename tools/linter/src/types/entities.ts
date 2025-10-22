@@ -14,7 +14,7 @@ export interface Contact extends BaseEntity {
   title?: string;
   company?: string;
   companies?: string[];
-  deals?: string[];
+  opportunities?: string[];
   last_contacted?: string;
 }
 
@@ -26,12 +26,12 @@ export interface Company extends BaseEntity {
   revenue?: string;
   type: 'prospect' | 'customer' | 'partner' | 'vendor' | 'other';
   contacts?: string[];
-  deals?: string[];
+  opportunities?: string[];
   phone?: string;
   address?: string;
 }
 
-export interface Deal extends BaseEntity {
+export interface Opportunity extends BaseEntity {
   name: string;
   stage: 'lead' | 'qualified' | 'proposal' | 'negotiation' | 'closed-won' | 'closed-lost';
   amount?: number;
@@ -53,13 +53,13 @@ export interface Activity extends BaseEntity {
   status: 'scheduled' | 'completed' | 'cancelled' | 'no-show';
   contacts?: string[];
   company?: string;
-  deal?: string;
+  opportunity?: string;
   outcome?: string;
   next_action?: string;
 }
 
-export type EntityType = 'contact' | 'company' | 'deal' | 'activity';
-export type Entity = Contact | Company | Deal | Activity;
+export type EntityType = 'contact' | 'company' | 'opportunity' | 'activity';
+export type Entity = Contact | Company | Opportunity | Activity;
 
 export interface ParsedEntity {
   type: EntityType;

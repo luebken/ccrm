@@ -6,7 +6,7 @@ size: 501-1000
 revenue: €2B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +44 20 3870 8500
 address: The Brew, 1 Cousin Lane, London EC4R 3TE, UK

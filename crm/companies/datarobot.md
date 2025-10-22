@@ -6,7 +6,7 @@ size: 1000+
 revenue: $400M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +1 (857) 239-4400
 address: 225 Franklin Street, Boston, MA 02110, USA

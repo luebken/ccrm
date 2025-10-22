@@ -5,7 +5,7 @@ email: priya.singh@mongodb.com
 phone: +1-646-237-8000
 title: Solutions Architect
 company: "[[companies/mongodb]]"
-deals: ["[[deals/mongodb-2024-q2-performance-optimization]]"]
+opportunities: ["[[opportunities/mongodb-2024-q2-performance-optimization]]"]
 owner: Mike Rodriguez
 tags: [database, nosql, cloud, solutions-architecture]
 created_at: "2024-02-08"

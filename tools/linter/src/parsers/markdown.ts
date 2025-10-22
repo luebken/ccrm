@@ -34,7 +34,7 @@ export class MarkdownParser {
     
     if (pathParts.includes('contacts')) return 'contact';
     if (pathParts.includes('companies')) return 'company';
-    if (pathParts.includes('deals')) return 'deal';
+    if (pathParts.includes('opportunities')) return 'opportunity';
     if (pathParts.includes('activities')) return 'activity';
     
     return null;

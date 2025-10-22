@@ -6,7 +6,7 @@ status: completed
 contacts:
   - "[[contacts/dubois-antoine]]"
 company: "[[companies/contentful]]"
-deal: "[[deals/contentful-2024-q1-content-analytics]]"
+opportunity: "[[opportunities/contentful-2024-q1-content-analytics]]"
 owner: Rachel Kim
 outcome: Demo environment configured with content management scenarios
 next_action: Deliver demo to content strategy team

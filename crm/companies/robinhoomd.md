@@ -5,7 +5,7 @@ industry: Healthcare Technology
 size: 51-200
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +1 (650) 555-7890
 address: 450 Serra Mall, Stanford, CA 94305, USA

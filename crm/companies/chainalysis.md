@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $200M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +1 (855) 934-2493
 address: 150 Maiden Lane, New York, NY 10038, USA

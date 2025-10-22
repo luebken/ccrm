@@ -1,15 +1,15 @@
-import { Deal } from '../types/entities.js';
+import { Opportunity } from '../types/entities.js';
 import { ValidationError, ValidationResult } from '../types/validation.js';
 
-export class DealValidator {
-  validate(deal: Deal, filepath: string): ValidationResult {
+export class OpportunityValidator {
+  validate(opportunity: Opportunity, filepath: string): ValidationResult {
     const errors: ValidationError[] = [];
 
-    this.validateRequiredFields(deal, filepath, errors);
-    this.validateFieldTypes(deal, filepath, errors);
-    this.validateEnumFields(deal, filepath, errors);
-    this.validateFieldFormats(deal, filepath, errors);
-    this.validateBusinessLogic(deal, filepath, errors);
+    this.validateRequiredFields(opportunity, filepath, errors);
+    this.validateFieldTypes(opportunity, filepath, errors);
+    this.validateEnumFields(opportunity, filepath, errors);
+    this.validateFieldFormats(opportunity, filepath, errors);
+    this.validateBusinessLogic(opportunity, filepath, errors);
 
     return {
       valid: errors.filter(e => e.severity === 'error').length === 0,
@@ -19,11 +19,11 @@ export class DealValidator {
     };
   }
 
-  private validateRequiredFields(deal: Deal, filepath: string, errors: ValidationError[]) {
+  private validateRequiredFields(opportunity: Opportunity, filepath: string, errors: ValidationError[]) {
     const required = ['name', 'stage', 'company', 'type', 'owner', 'created_at', 'updated_at'];
     
     for (const field of required) {
-      if (!deal[field as keyof Deal]) {
+      if (!opportunity[field as keyof Opportunity]) {
         errors.push({
           severity: 'error',
           message: `Missing required field: ${field}`,
@@ -35,8 +35,8 @@ export class DealValidator {
     }
   }
 
-  private validateFieldTypes(deal: Deal, filepath: string, errors: ValidationError[]) {
-    if (deal.contacts && !Array.isArray(deal.contacts)) {
+  private validateFieldTypes(opportunity: Opportunity, filepath: string, errors: ValidationError[]) {
+    if (opportunity.contacts && !Array.isArray(opportunity.contacts)) {
       errors.push({
         severity: 'error',
         message: 'Field "contacts" must be an array',
@@ -45,7 +45,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.tags && !Array.isArray(deal.tags)) {
+    if (opportunity.tags && !Array.isArray(opportunity.tags)) {
       errors.push({
         severity: 'error',
         message: 'Field "tags" must be an array',
@@ -54,7 +54,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.amount && typeof deal.amount !== 'number') {
+    if (opportunity.amount && typeof opportunity.amount !== 'number') {
       errors.push({
         severity: 'error',
         message: 'Field "amount" must be a number',
@@ -63,7 +63,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.probability && typeof deal.probability !== 'number') {
+    if (opportunity.probability && typeof opportunity.probability !== 'number') {
       errors.push({
         severity: 'error',
         message: 'Field "probability" must be a number',
@@ -73,12 +73,12 @@ export class DealValidator {
     }
   }
 
-  private validateEnumFields(deal: Deal, filepath: string, errors: ValidationError[]) {
+  private validateEnumFields(opportunity: Opportunity, filepath: string, errors: ValidationError[]) {
     const validStages = ['lead', 'qualified', 'proposal', 'negotiation', 'closed-won', 'closed-lost'];
-    if (deal.stage && !validStages.includes(deal.stage)) {
+    if (opportunity.stage && !validStages.includes(opportunity.stage)) {
       errors.push({
         severity: 'error',
-        message: `Invalid deal stage: ${deal.stage}`,
+        message: `Invalid opportunity stage: ${opportunity.stage}`,
         file: filepath,
         field: 'stage',
         suggestion: `Must be one of: ${validStages.join(', ')}`
@@ -86,10 +86,10 @@ export class DealValidator {
     }
 
     const validTypes = ['new-business', 'renewal', 'upsell', 'cross-sell'];
-    if (deal.type && !validTypes.includes(deal.type)) {
+    if (opportunity.type && !validTypes.includes(opportunity.type)) {
       errors.push({
         severity: 'error',
-        message: `Invalid deal type: ${deal.type}`,
+        message: `Invalid opportunity type: ${opportunity.type}`,
         file: filepath,
         field: 'type',
         suggestion: `Must be one of: ${validTypes.join(', ')}`
@@ -97,10 +97,10 @@ export class DealValidator {
     }
 
     const validLostReasons = ['competitor', 'budget', 'timing', 'other'];
-    if (deal.lost_reason && !validLostReasons.includes(deal.lost_reason)) {
+    if (opportunity.lost_reason && !validLostReasons.includes(opportunity.lost_reason)) {
       errors.push({
         severity: 'error',
-        message: `Invalid lost reason: ${deal.lost_reason}`,
+        message: `Invalid lost reason: ${opportunity.lost_reason}`,
         file: filepath,
         field: 'lost_reason',
         suggestion: `Must be one of: ${validLostReasons.join(', ')}`
@@ -108,8 +108,8 @@ export class DealValidator {
     }
   }
 
-  private validateFieldFormats(deal: Deal, filepath: string, errors: ValidationError[]) {
-    if (deal.probability && (deal.probability < 0 || deal.probability > 100)) {
+  private validateFieldFormats(opportunity: Opportunity, filepath: string, errors: ValidationError[]) {
+    if (opportunity.probability && (opportunity.probability < 0 || opportunity.probability > 100)) {
       errors.push({
         severity: 'error',
         message: 'Probability must be between 0 and 100',
@@ -118,16 +118,16 @@ export class DealValidator {
       });
     }
 
-    if (deal.amount && deal.amount < 0) {
+    if (opportunity.amount && opportunity.amount < 0) {
       errors.push({
         severity: 'warning',
-        message: 'Deal amount should not be negative',
+        message: 'Opportunity amount should not be negative',
         file: filepath,
         field: 'amount'
       });
     }
 
-    if (deal.expected_close_date && !this.isValidDate(deal.expected_close_date)) {
+    if (opportunity.expected_close_date && !this.isValidDate(opportunity.expected_close_date)) {
       errors.push({
         severity: 'warning',
         message: 'Invalid expected_close_date format',
@@ -137,7 +137,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.closed_at && !this.isValidDate(deal.closed_at)) {
+    if (opportunity.closed_at && !this.isValidDate(opportunity.closed_at)) {
       errors.push({
         severity: 'error',
         message: 'Invalid closed_at date format',
@@ -147,7 +147,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.created_at && !this.isValidDate(deal.created_at)) {
+    if (opportunity.created_at && !this.isValidDate(opportunity.created_at)) {
       errors.push({
         severity: 'error',
         message: 'Invalid created_at date format',
@@ -157,7 +157,7 @@ export class DealValidator {
       });
     }
 
-    if (deal.updated_at && !this.isValidDate(deal.updated_at)) {
+    if (opportunity.updated_at && !this.isValidDate(opportunity.updated_at)) {
       errors.push({
         severity: 'error',
         message: 'Invalid updated_at date format',
@@ -168,30 +168,30 @@ export class DealValidator {
     }
   }
 
-  private validateBusinessLogic(deal: Deal, filepath: string, errors: ValidationError[]) {
-    if ((deal.stage === 'closed-won' || deal.stage === 'closed-lost') && !deal.closed_at) {
+  private validateBusinessLogic(opportunity: Opportunity, filepath: string, errors: ValidationError[]) {
+    if ((opportunity.stage === 'closed-won' || opportunity.stage === 'closed-lost') && !opportunity.closed_at) {
       errors.push({
         severity: 'error',
-        message: 'Closed deals must have a closed_at date',
+        message: 'Closed opportunities must have a closed_at date',
         file: filepath,
         suggestion: 'Add closed_at field with the actual close date'
       });
     }
 
-    if (deal.stage === 'closed-lost' && !deal.lost_reason) {
+    if (opportunity.stage === 'closed-lost' && !opportunity.lost_reason) {
       errors.push({
         severity: 'warning',
-        message: 'Lost deals should include a lost_reason',
+        message: 'Lost opportunities should include a lost_reason',
         file: filepath,
         field: 'lost_reason',
         suggestion: 'Add lost_reason: competitor | budget | timing | other'
       });
     }
 
-    if (deal.closed_at && deal.stage !== 'closed-won' && deal.stage !== 'closed-lost') {
+    if (opportunity.closed_at && opportunity.stage !== 'closed-won' && opportunity.stage !== 'closed-lost') {
       errors.push({
         severity: 'warning',
-        message: 'Deal has closed_at date but stage is not closed',
+        message: 'Opportunity has closed_at date but stage is not closed',
         file: filepath,
         suggestion: 'Update stage to closed-won or closed-lost, or remove closed_at'
       });

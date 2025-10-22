@@ -4,7 +4,7 @@ last_name: Nguyen
 email: sarah.nguyen@healthtech-dynamics.com
 title: CTO
 company: "[[companies/healthtech-dynamics]]"
-deals: []
+opportunities: []
 owner: Rachel Kim
 tags: [healthtech, cto, executive, renewal]
 created_at: "2023-11-15"

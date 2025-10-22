@@ -5,8 +5,8 @@ email: gustav.larsson@klarna.com
 phone: +46-8-120-120-00
 title: Principal Engineer
 company: "[[companies/klarna]]"
-deals:
-  - "[[deals/klarna-2024-q2-payments]]"
+opportunities:
+  - "[[opportunities/klarna-2024-q2-payments]]"
 owner: James Thompson
 tags: [payments, sweden, principal-engineer, fintech]
 created_at: "2024-02-14"

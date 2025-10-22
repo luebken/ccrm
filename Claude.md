@@ -21,7 +21,7 @@ The system uses wikilinks for all entity relationships.
 
 ## Core Entities
 
-Contacts, Companies, Deals, Activities
+Contacts, Companies, Opportunities, Activities
 
 All entities are stored under `/crm/` as Markdown files with YAML front matter:
 
@@ -38,7 +38,7 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
   - `title`: Job title
   - `company`: Primary company wikilink (e.g., `[[companies/acme-corp]]`)
   - `companies`: Array of company wikilinks for multiple affiliations
-  - `deals`: Array of deal wikilinks
+  - `opportunities`: Array of opportunity wikilinks
   - `owner`: Owner name (e.g., "Sarah Chen")
   - `tags`: Array of tags
   - `created_at`: Creation date
@@ -59,7 +59,7 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
   - `revenue`: Annual revenue range
   - `type`: prospect | customer | partner | vendor | other
   - `contacts`: Array of contact wikilinks
-  - `deals`: Array of deal wikilinks
+  - `opportunities`: Array of opportunity wikilinks
   - `owner`: Owner name
   - `phone`: Main phone number
   - `address`: Company address
@@ -68,18 +68,18 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
   - `updated_at`: Last modified date
 - **Markdown body**: Company description, notes, key information with wikilinks
 
-### Deals (`/crm/deals/`)
+### Opportunities (`/crm/opportunities/`)
 **Purpose**: Revenue opportunities and sales pipeline
 
 - **File naming**: `company-YYYY-qN-description.md` (e.g., `acme-2024-q1-expansion.md`)
 - **Front matter fields**:
   - `hubspot_id`: Unique identifier (optional, for HubSpot integration)
-  - `name`: Deal name
+  - `name`: Opportunity name
   - `stage`: lead | qualified | proposal | negotiation | closed-won | closed-lost
-  - `amount`: Deal value
+  - `amount`: Opportunity value
   - `probability`: Win probability (0-100)
   - `expected_close_date`: Projected close date
-  - `company`: Company wikilink (one company per deal)
+  - `company`: Company wikilink (one company per opportunity)
   - `contacts`: Array of contact wikilinks
   - `primary_contact`: Main contact wikilink
   - `owner`: Owner name
@@ -89,7 +89,7 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
   - `updated_at`: Last modified date
   - `closed_at`: Actual close date (if closed)
   - `lost_reason`: Reason if lost (competitor | budget | timing | other)
-- **Markdown body**: Deal details, notes, requirements, next steps with wikilinks
+- **Markdown body**: Opportunity details, notes, requirements, next steps with wikilinks
 
 ### Activities (`/crm/activities/`)
 **Purpose**: Interactions and touchpoints with contacts and companies
@@ -104,7 +104,7 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
   - `status`: scheduled | completed | cancelled | no-show
   - `contacts`: Array of contact wikilinks
   - `company`: Company wikilink
-  - `deal`: Deal wikilink (if applicable)
+  - `opportunity`: Opportunity wikilink (if applicable)
   - `owner`: Owner name
   - `outcome`: Brief outcome summary
   - `next_action`: Follow-up action needed
@@ -121,12 +121,12 @@ All entities are stored under `/crm/` as Markdown files with YAML front matter:
 
 ### Linking to Headings
 - Link to specific sections: `[[companies/acme-corp#Key Contacts]]`
-- Multiple levels: `[[deals/acme-2024-q1-expansion#Details#Pricing]]`
+- Multiple levels: `[[opportunities/acme-2024-q1-expansion#Details#Pricing]]`
 
 ### Link Examples in Markdown Body
 ```markdown
-Met with [[contacts/smith-john|John Smith]] from [[companies/acme-corp]] to discuss 
-the [[deals/acme-2024-q1-expansion|expansion deal]]. 
+Met with [[contacts/smith-john|John Smith]] from [[companies/acme-corp]] to discuss
+the [[opportunities/acme-2024-q1-expansion|expansion opportunity]]. 
 
 Key points discussed:
 - Budget approved by [[contacts/jones-mary|Mary Jones]] (CFO)
@@ -150,11 +150,11 @@ All relationships use wikilinks instead of IDs:
 - Primary company in `company` field
 - All affiliations in `companies` array
 
-**Deals ↔ Companies**
-- Many-to-one: Each deal has one `company` wikilink
-- Companies list deals in `deals` array
+**Opportunities ↔ Companies**
+- Many-to-one: Each opportunity has one `company` wikilink
+- Companies list opportunities in `opportunities` array
 
-**Deals ↔ Contacts**
+**Opportunities ↔ Contacts**
 - Many-to-many via `contacts` array
 - `primary_contact` for main stakeholder
 
@@ -170,11 +170,11 @@ All relationships use wikilinks instead of IDs:
 ## File Structure
 ```
 /crm/
-├── crm.md           # CRM schema & business context
-├── /contacts/        # Individual people
-├── /companies/       # Organizations
-├── /deals/          # Opportunities
-└── /activities/     # Interactions
+├── crm.md              # CRM schema & business context
+├── /contacts/          # Individual people
+├── /companies/         # Organizations
+├── /opportunities/     # Revenue opportunities
+└── /activities/        # Interactions
 ```
 
 ## CRM Schema & Context

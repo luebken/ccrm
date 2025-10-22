@@ -6,7 +6,7 @@ size: 1000+
 revenue: $300M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +31 20 262 12 00
 address: Vijzelstraat 68-70, 1017 HL Amsterdam, Netherlands

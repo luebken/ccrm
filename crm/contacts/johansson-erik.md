@@ -5,7 +5,7 @@ email: erik.johansson@hellofresh.com
 phone: +49-30-6099-1000
 title: Platform Engineering Lead
 company: "[[companies/hellofresh]]"
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 tags: [food-delivery, germany, logistics, platform]
 created_at: "2023-10-20"

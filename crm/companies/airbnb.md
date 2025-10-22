@@ -9,7 +9,7 @@ contacts:
   - "[[contacts/thompson-daniel]]"
   - "[[contacts/johnson-mark]]"
   - "[[contacts/garcia-miguel]]"
-deals: ["[[deals/airbnb-2024-q3-host-experience]]"]
+opportunities: ["[[opportunities/airbnb-2024-q3-host-experience]]"]
 owner: James Thompson
 address: 888 Brannan St, San Francisco, CA 94103
 tags: [travel, hospitality, marketplace]

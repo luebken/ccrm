@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.2B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (888) 858-2569
 address: 970 Park Place, San Mateo, CA 94403, USA

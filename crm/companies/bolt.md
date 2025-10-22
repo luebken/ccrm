@@ -7,7 +7,7 @@ revenue: €1B+
 type: customer
 contacts:
   - "[[contacts/kask-erik]]"
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +372 634 4600
 address: Vana-Lõuna 15, 10134 Tallinn, Estonia

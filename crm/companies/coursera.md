@@ -6,7 +6,7 @@ size: 1000+
 revenue: $500M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (650) 963-6300
 address: 381 E Evelyn Avenue, Mountain View, CA 94041, USA

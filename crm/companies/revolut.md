@@ -5,7 +5,7 @@ industry: Financial Technology
 size: 1000+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 address: 7 Westferry Circus, London E14 4HD, UK
 tags: [fintech, banking, london, mobile]

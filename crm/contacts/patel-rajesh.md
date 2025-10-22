@@ -5,7 +5,7 @@ email: rajesh.patel@netflix.com
 phone: +1-408-540-3700
 title: Senior Data Engineer
 company: "[[companies/netflix]]"
-deals: ["[[deals/netflix-2024-q2-streaming-monitoring]]"]
+opportunities: ["[[opportunities/netflix-2024-q2-streaming-monitoring]]"]
 owner: Sarah Chen
 tags: [streaming, data-engineering, analytics, content]
 created_at: "2024-02-10"

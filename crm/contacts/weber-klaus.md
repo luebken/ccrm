@@ -5,7 +5,7 @@ email: klaus.weber@dhl.com
 phone: +49-228-182-0
 title: IT Operations Director
 company: "[[companies/dhl]]"
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 tags: [logistics, germany, supply-chain, director-level]
 created_at: "2024-01-30"

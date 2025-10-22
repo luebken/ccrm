@@ -4,7 +4,7 @@ last_name: Murphy
 email: lisa.murphy@intercom.com
 title: Senior Engineering Manager
 company: "[[companies/intercom]]"
-deals: ["[[deals/intercom-2024-q1-customer-engagement]]"]
+opportunities: ["[[opportunities/intercom-2024-q1-customer-engagement]]"]
 owner: Lisa Wang
 tags: [customer-messaging, saas, engineering-management]
 created_at: "2024-01-18"

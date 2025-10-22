@@ -7,7 +7,7 @@ revenue: $500M+
 type: prospect
 contacts:
   - "[[contacts/walker-james]]"
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (415) 717-2830
 address: 633 Folsom Street, Suite 100, San Francisco, CA 94107, USA

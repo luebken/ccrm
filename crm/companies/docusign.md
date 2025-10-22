@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.1B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (866) 219-4318
 address: 221 Main Street, Suite 1550, San Francisco, CA 94105, USA

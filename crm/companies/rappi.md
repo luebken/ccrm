@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +57 1 508 8888
 address: Carrera 7 No. 71-52, Bogotá, Colombia

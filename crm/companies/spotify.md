@@ -7,7 +7,7 @@ revenue: €13B+
 type: partner
 contacts:
   - "[[contacts/jensen-anna]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 address: Regeringsgatan 19, 111 53 Stockholm, Sweden
 tags: [music, streaming, sweden, partner]

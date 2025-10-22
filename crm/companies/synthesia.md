@@ -6,7 +6,7 @@ size: 201-500
 revenue: $50M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +44 20 3966 2993
 address: 1 Lyric Square, Hammersmith, London W6 0NB, UK

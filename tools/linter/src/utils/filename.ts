@@ -12,8 +12,8 @@ export class FilenameValidator {
       case 'company':
         this.validateCompanyFilename(filename, filepath, errors);
         break;
-      case 'deal':
-        this.validateDealFilename(filename, filepath, errors);
+      case 'opportunity':
+        this.validateOpportunityFilename(filename, filepath, errors);
         break;
       case 'activity':
         this.validateActivityFilename(filename, filepath, errors);
@@ -56,12 +56,12 @@ export class FilenameValidator {
     }
   }
 
-  private validateDealFilename(filename: string, filepath: string, errors: ValidationError[]) {
+  private validateOpportunityFilename(filename: string, filepath: string, errors: ValidationError[]) {
     const pattern = /^[a-z0-9]+([-][a-z0-9]+)*-\d{4}-q[1-4]-[a-z]+([-][a-z]+)*$/;
     if (!pattern.test(filename)) {
       errors.push({
         severity: 'error',
-        message: 'Deal filename must follow pattern: company-YYYY-qN-description.md',
+        message: 'Opportunity filename must follow pattern: company-YYYY-qN-description.md',
         file: filepath,
         suggestion: 'Use format like "acme-2024-q1-expansion.md"'
       });

@@ -4,7 +4,7 @@ last_name: Lee
 email: david.lee@discord.com
 title: Senior Infrastructure Engineer
 company: "[[companies/discord]]"
-deals: ["[[deals/discord-2024-q2-voice-quality]]"]
+opportunities: ["[[opportunities/discord-2024-q2-voice-quality]]"]
 owner: Sarah Chen
 tags: [gaming, voice-chat, real-time, infrastructure]
 created_at: "2024-01-15"

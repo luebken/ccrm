@@ -6,7 +6,7 @@ size: 1000+
 revenue: €370M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +370 5 214 5555
 address: Švitrigailos gatvė 13, 03228 Vilnius, Lithuania

@@ -33,7 +33,7 @@ export interface LinterResult {
   summary: {
     contacts: { total: number; valid: number; errors: number };
     companies: { total: number; valid: number; errors: number };
-    deals: { total: number; valid: number; errors: number };
+    opportunities: { total: number; valid: number; errors: number };
     activities: { total: number; valid: number; errors: number };
   };
 }

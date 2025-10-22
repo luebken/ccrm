@@ -6,7 +6,7 @@ size: 201-500
 revenue: $50M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +1 (415) 993-7065
 address: 140 2nd Street, San Francisco, CA 94105, USA

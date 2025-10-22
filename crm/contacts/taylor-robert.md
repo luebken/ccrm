@@ -4,7 +4,7 @@ last_name: Taylor
 email: robert.taylor@docusign.com
 title: DevOps Lead
 company: "[[companies/docusign]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 tags: [digital-signatures, enterprise, devops, compliance]
 created_at: "2024-01-12"

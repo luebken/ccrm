@@ -44,12 +44,12 @@ export class CompanyValidator {
       });
     }
 
-    if (company.deals && !Array.isArray(company.deals)) {
+    if (company.opportunities && !Array.isArray(company.opportunities)) {
       errors.push({
         severity: 'error',
-        message: 'Field "deals" must be an array',
+        message: 'Field "opportunities" must be an array',
         file: filepath,
-        field: 'deals'
+        field: 'opportunities'
       });
     }
 

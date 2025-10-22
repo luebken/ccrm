@@ -19,7 +19,7 @@ program
   .option('-v, --verbose', 'Show detailed output including warnings and info')
   .option('-s, --strict', 'Enable strict mode with additional checks')
   .option('--no-wikilinks', 'Skip wikilink cross-reference validation')
-  .option('-t, --types <types>', 'Entity types to validate (comma-separated)', 'contacts,companies,deals,activities')
+  .option('-t, --types <types>', 'Entity types to validate (comma-separated)', 'contacts,companies,opportunities,activities')
   .action(async (crmPath: string, options) => {
     try {
       // Resolve path
@@ -41,7 +41,7 @@ program
       const entityTypes = options.types.split(',').map((t: string) => t.trim());
       
       // Validate entity types
-      const validTypes = ['contacts', 'companies', 'deals', 'activities'];
+      const validTypes = ['contacts', 'companies', 'opportunities', 'activities'];
       const invalidTypes = entityTypes.filter((t: string) => !validTypes.includes(t));
       if (invalidTypes.length > 0) {
         console.error(`❌ Error: Invalid entity types: ${invalidTypes.join(', ')}`);

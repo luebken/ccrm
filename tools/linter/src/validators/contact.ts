@@ -43,12 +43,12 @@ export class ContactValidator {
       });
     }
 
-    if (contact.deals && !Array.isArray(contact.deals)) {
+    if (contact.opportunities && !Array.isArray(contact.opportunities)) {
       errors.push({
         severity: 'error',
-        message: 'Field "deals" must be an array',
+        message: 'Field "opportunities" must be an array',
         file: filepath,
-        field: 'deals'
+        field: 'opportunities'
       });
     }
 

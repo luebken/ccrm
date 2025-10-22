@@ -7,7 +7,7 @@ revenue: £3.9B+
 type: prospect
 contacts:
   - "[[contacts/martinez-carlos]]"
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +44 20 7756 1000
 address: Greater London House, Hampstead Road, London NW1 7FB, UK

@@ -6,7 +6,7 @@ size: 1000+
 revenue: $900M+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (833) 353-2827
 address: 800 West El Camino Real, Suite 350, Mountain View, CA 94040, USA

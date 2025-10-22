@@ -6,7 +6,7 @@ size: 1000+
 revenue: €10B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +49 30 2759460
 address: Valeska-Gert-Straße 5, 10243 Berlin, Germany

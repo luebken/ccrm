@@ -5,7 +5,7 @@ date: "2024-02-19 15:20"
 status: completed
 contacts: []
 company: "[[companies/datadog]]"
-deal: "[[deals/datadog-2024-q3-competitive-intelligence]]"
+opportunity: "[[opportunities/datadog-2024-q3-competitive-intelligence]]"
 owner: James Thompson
 tags: ["competitive", "market-intelligence", "pricing"]
 created_at: "2024-02-19"

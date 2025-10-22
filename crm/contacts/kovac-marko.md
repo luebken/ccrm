@@ -4,7 +4,7 @@ last_name: Kovač
 email: marko.kovac@chainalysis.com
 title: Engineering Manager
 company: "[[companies/chainalysis]]"
-deals: []
+opportunities: []
 owner: James Thompson
 tags: [blockchain, compliance, crypto]
 created_at: "2024-01-25"

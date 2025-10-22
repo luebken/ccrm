@@ -4,7 +4,7 @@ last_name: Martínez
 email: elena.martinez@discord.com
 title: Senior Platform Engineer
 company: "[[companies/discord]]"
-deals: ["[[deals/discord-2024-q2-voice-quality]]"]
+opportunities: ["[[opportunities/discord-2024-q2-voice-quality]]"]
 owner: Sarah Chen
 tags: [gaming, voice-chat, platform, real-time]
 created_at: "2024-02-05"

@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $400M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (415) 960-9560
 address: 760 Market Street, Suite 1102, San Francisco, CA 94102, USA

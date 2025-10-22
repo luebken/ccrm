@@ -5,7 +5,7 @@ industry: Healthcare Technology
 size: 201-500
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (415) 789-4560
 address: 555 Mission Street, San Francisco, CA 94105, USA

@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $150M+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (646) 798-2184
 address: 24 E 12th Street, New York, NY 10003, USA

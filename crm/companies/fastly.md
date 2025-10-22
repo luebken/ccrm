@@ -6,7 +6,7 @@ size: 1000+
 revenue: $400M+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (844) 432-7859
 address: 475 Brannan Street, San Francisco, CA 94107, USA

@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $500M+
 type: customer
 contacts: ["[[contacts/taylor-robert]]"]
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (415) 658-5262
 address: 444 De Haro Street, Suite 200, San Francisco, CA 94107, USA

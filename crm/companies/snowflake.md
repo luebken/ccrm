@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.7B+
 type: partner
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (844) 766-9355
 address: 106 E 15th Street, San Mateo, CA 94402, USA

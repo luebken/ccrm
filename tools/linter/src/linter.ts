@@ -5,10 +5,10 @@ import { MarkdownParser } from './parsers/markdown.js';
 import { FilenameValidator } from './utils/filename.js';
 import { ContactValidator } from './validators/contact.js';
 import { CompanyValidator } from './validators/company.js';
-import { DealValidator } from './validators/deal.js';
+import { OpportunityValidator } from './validators/opportunity.js';
 import { ActivityValidator } from './validators/activity.js';
 import { WikilinkValidator } from './validators/wikilinks.js';
-import { ParsedEntity, Contact, Company, Deal, Activity } from './types/entities.js';
+import { ParsedEntity, Contact, Company, Opportunity, Activity } from './types/entities.js';
 import { LinterOptions, LinterResult, ValidationResult, ValidationError } from './types/validation.js';
 
 export class CRMLinter {
@@ -16,7 +16,7 @@ export class CRMLinter {
   private filenameValidator = new FilenameValidator();
   private contactValidator = new ContactValidator();
   private companyValidator = new CompanyValidator();
-  private dealValidator = new DealValidator();
+  private opportunityValidator = new OpportunityValidator();
   private activityValidator = new ActivityValidator();
 
   async lint(options: LinterOptions): Promise<LinterResult> {
@@ -27,7 +27,7 @@ export class CRMLinter {
     const summary = {
       contacts: { total: 0, valid: 0, errors: 0 },
       companies: { total: 0, valid: 0, errors: 0 },
-      deals: { total: 0, valid: 0, errors: 0 },
+      opportunities: { total: 0, valid: 0, errors: 0 },
       activities: { total: 0, valid: 0, errors: 0 }
     };
 
@@ -45,8 +45,8 @@ export class CRMLinter {
         case 'company':
           summaryKey = 'companies';
           break;
-        case 'deal':
-          summaryKey = 'deals';
+        case 'opportunity':
+          summaryKey = 'opportunities';
           break;
         case 'activity':
           summaryKey = 'activities';
@@ -102,7 +102,7 @@ export class CRMLinter {
 
   private async loadEntities(crmPath: string, entityTypes?: string[]): Promise<ParsedEntity[]> {
     const entities: ParsedEntity[] = [];
-    const types = entityTypes || ['contacts', 'companies', 'deals', 'activities'];
+    const types = entityTypes || ['contacts', 'companies', 'opportunities', 'activities'];
 
     // Check for schema file and log if found
     const schemaPath = path.join(crmPath, 'crm.md');
@@ -145,8 +145,8 @@ export class CRMLinter {
       case 'company':
         validationResult = this.companyValidator.validate(entity.frontmatter as Company, entity.filepath);
         break;
-      case 'deal':
-        validationResult = this.dealValidator.validate(entity.frontmatter as Deal, entity.filepath);
+      case 'opportunity':
+        validationResult = this.opportunityValidator.validate(entity.frontmatter as Opportunity, entity.filepath);
         break;
       case 'activity':
         validationResult = this.activityValidator.validate(entity.frontmatter as Activity, entity.filepath);

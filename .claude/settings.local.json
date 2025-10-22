@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(make lint:*)",
-      "Skill(pdf)"
+      "Skill(pdf)",
+      "Bash(git mv:*)"
     ],
     "deny": [],
     "ask": []

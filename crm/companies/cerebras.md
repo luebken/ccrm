@@ -6,7 +6,7 @@ size: 201-500
 revenue: $100M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (650) 489-9019
 address: 1237 E Arques Avenue, Sunnyvale, CA 94085, USA

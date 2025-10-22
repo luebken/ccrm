@@ -8,7 +8,7 @@ contacts:
   - "[[contacts/anderson-chris]]"
   - "[[contacts/chen-lisa]]"
 company: "[[companies/netflix]]"
-deal: "[[deals/netflix-2024-q2-streaming-monitoring]]"
+opportunity: "[[opportunities/netflix-2024-q2-streaming-monitoring]]"
 owner: Sarah Chen
 outcome: Clear pain points identified
 next_action: Schedule technical architecture deep-dive

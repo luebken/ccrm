@@ -4,8 +4,8 @@ last_name: Andersson
 email: erik.andersson@klarna.com
 title: Senior Software Engineer
 company: "[[companies/klarna]]"
-deals:
-  - "[[deals/klarna-2024-q2-payments]]"
+opportunities:
+  - "[[opportunities/klarna-2024-q2-payments]]"
 owner: James Thompson
 tags: [payments, sweden, engineer]
 created_at: "2024-01-18"

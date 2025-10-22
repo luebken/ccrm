@@ -6,7 +6,7 @@ size: 1000+
 revenue: €200M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +234 1 888 3888
 address: 23B Adeola Odeku Street, Victoria Island, Lagos, Nigeria

@@ -5,7 +5,7 @@ email: krish.patel@wise.com
 phone: +44-20-3318-0567
 title: Principal Engineer
 company: "[[companies/wise]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 tags: [fintech, international-payments, principal-engineer]
 created_at: "2024-01-16"

@@ -6,7 +6,7 @@ size: 501-1000
 revenue: €100M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +49 30 5490 5500
 address: Kastanienallee 32, 10435 Berlin, Germany

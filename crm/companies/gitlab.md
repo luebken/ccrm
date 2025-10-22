@@ -6,7 +6,7 @@ size: 1000+
 revenue: $400M+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +1 (844) 425-5227
 address: 268 Bush Street, San Francisco, CA 94104, USA

@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.2B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 phone: +1 (650) 289-7100
 address: 1555 Blake Street, Suite 250, Denver, CO 80202, USA

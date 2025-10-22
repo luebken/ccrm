@@ -7,7 +7,7 @@ status: completed
 contacts:
   - "[[contacts/martinez-elena]]"
 company: "[[companies/figma]]"
-deal: "[[deals/figma-2024-q2-collaboration-insights]]"
+opportunity: "[[opportunities/figma-2024-q2-collaboration-insights]]"
 owner: Rachel Kim
 outcome: Product vision aligned, technical feasibility confirmed
 next_action: Provide user behavior analytics mockups

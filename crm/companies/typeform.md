@@ -6,7 +6,7 @@ size: 501-1000
 revenue: $50M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +34 930 181 186
 address: Carrer de Badajoz 7, 08005 Barcelona, Spain

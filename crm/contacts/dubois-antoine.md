@@ -5,7 +5,7 @@ email: antoine.dubois@scaleway.com
 phone: +33-1-84-13-00-00
 title: Senior Cloud Engineer
 company: "[[companies/scaleway]]"
-deals: []
+opportunities: []
 owner: Lisa Wang
 tags: [cloud-provider, france, infrastructure, monitoring]
 created_at: "2024-01-22"

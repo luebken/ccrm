@@ -7,7 +7,7 @@ status: completed
 contacts:
   - "[[contacts/taylor-robert]]"
 company: "[[companies/snowflake]]"
-deal: "[[deals/snowflake-2024-q3-data-governance]]"
+opportunity: "[[opportunities/snowflake-2024-q3-data-governance]]"
 owner: Sarah Chen
 outcome: Governance analytics use cases validated
 next_action: Provide data governance analytics demo

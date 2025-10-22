@@ -8,8 +8,8 @@ type: customer
 contacts:
   - "[[contacts/rodriguez-miguel]]"
   - "[[contacts/garcia-luis]]"
-deals:
-  - "[[deals/stripe-2024-q3-expansion]]"
+opportunities:
+  - "[[opportunities/stripe-2024-q3-expansion]]"
 owner: Rachel Kim
 phone: +1-888-926-2289
 created_at: "2023-11-08"

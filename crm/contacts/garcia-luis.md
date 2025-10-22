@@ -5,8 +5,8 @@ email: luis.garcia@stripe.com
 phone: +1-888-926-2289
 title: Staff Engineer
 company: "[[companies/stripe]]"
-deals:
-  - "[[deals/stripe-2024-q3-expansion]]"
+opportunities:
+  - "[[opportunities/stripe-2024-q3-expansion]]"
 owner: Rachel Kim
 tags: [payments, fintech, staff-engineer, infrastructure]
 created_at: "2024-01-20"

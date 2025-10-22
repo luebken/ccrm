@@ -6,7 +6,7 @@ status: completed
 contacts:
   - "[[contacts/brown-sophie]]"
 company: "[[companies/deliveroo]]"
-deal: "[[deals/deliveroo-2024-q3-driver-optimization]]"
+opportunity: "[[opportunities/deliveroo-2024-q3-driver-optimization]]"
 owner: Mike Rodriguez
 outcome: Budget increased, timeline accelerated
 next_action: Schedule implementation planning meeting

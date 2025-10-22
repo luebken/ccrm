@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.9B+
 type: vendor
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +1 (888) 722-7871
 address: 100 1st Street, San Francisco, CA 94105, USA

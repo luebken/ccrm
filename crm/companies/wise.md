@@ -6,7 +6,7 @@ size: 1000+
 revenue: £681M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +44 20 3026 0822
 address: Tea Building, 56 Shoreditch High Street, London E1 6JJ, UK

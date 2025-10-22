@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.2B+
 type: vendor
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +1 (888) 512-8906
 address: 150 Mathilda Place, Sunnyvale, CA 94086, USA

@@ -6,7 +6,7 @@ size: 1000+
 revenue: $800M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (415) 556-3900
 address: 1455 Market Street, San Francisco, CA 94103, USA

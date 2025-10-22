@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.4B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (800) 835-2362
 address: 2 Manhattanville Road, Purchase, NY 10577, USA

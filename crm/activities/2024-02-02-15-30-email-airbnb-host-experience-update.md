@@ -6,7 +6,7 @@ status: completed
 contacts:
   - "[[contacts/zhang-michael]]"
 company: "[[companies/airbnb]]"
-deal: "[[deals/airbnb-2024-q3-host-experience]]"
+opportunity: "[[opportunities/airbnb-2024-q3-host-experience]]"
 owner: Mike Rodriguez
 outcome: Project timeline accelerated
 next_action: Schedule POC kickoff meeting

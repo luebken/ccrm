@@ -4,7 +4,7 @@ last_name: Kim
 email: jenny.kim@coursera.org
 title: Platform Engineer
 company: "[[companies/coursera]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 tags: [edtech, platform, learning]
 created_at: "2024-01-20"

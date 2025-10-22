@@ -84,8 +84,8 @@ export class WikilinkValidator {
       case 'company':
         this.validateCompanyReferences(entity, errors);
         break;
-      case 'deal':
-        this.validateDealReferences(entity, errors);
+      case 'opportunity':
+        this.validateOpportunityReferences(entity, errors);
         break;
       case 'activity':
         this.validateActivityReferences(entity, errors);
@@ -180,7 +180,7 @@ export class WikilinkValidator {
     }
   }
 
-  private validateDealReferences(entity: ParsedEntity, errors: ValidationError[]) {
+  private validateOpportunityReferences(entity: ParsedEntity, errors: ValidationError[]) {
     const deal = entity.frontmatter as any;
     
     // Check if company lists this deal
@@ -245,7 +245,7 @@ export class WikilinkValidator {
 
   private isValidWikilinkFormat(link: string): boolean {
     // Should start with entity type folder and contain valid characters
-    const validPattern = /^(contacts|companies|deals|activities)\/[a-z0-9-]+$/;
+    const validPattern = /^(contacts|companies|opportunities|activities)\/[a-z0-9-]+$/;
     return validPattern.test(link);
   }
 

@@ -8,7 +8,7 @@ contacts:
   - "[[contacts/chen-sarah]]"
   - "[[contacts/murphy-lisa]]"
 company: "[[companies/zendesk]]"
-deal: "[[deals/zendesk-2024-q2-support-optimization]]"
+opportunity: "[[opportunities/zendesk-2024-q2-support-optimization]]"
 owner: Sarah Chen
 outcome: Use cases validated, competitive concerns addressed
 next_action: Schedule POC with sample support data

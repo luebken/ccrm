@@ -6,7 +6,7 @@ size: 1000+
 revenue: $5B+
 type: prospect
 contacts: ["[[contacts/brown-sophie]]"]
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (613) 241-2828
 address: 150 Elgin Street, Ottawa, ON K2P 1L4, Canada

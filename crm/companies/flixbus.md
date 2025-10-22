@@ -6,7 +6,7 @@ size: 1000+
 revenue: €1.5B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: James Thompson
 phone: +49 30 300 137 300
 address: Birketweg 33, 80639 Munich, Germany

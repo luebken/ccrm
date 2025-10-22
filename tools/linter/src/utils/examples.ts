@@ -28,8 +28,8 @@ export class ExampleManager {
       },
       {
         filename: 'acme-2024-q1-expansion.md',
-        directory: 'deals',
-        content: this.loadTemplate('deal.md')
+        directory: 'opportunities',
+        content: this.loadTemplate('opportunity.md')
       },
       {
         filename: '2024-01-18-14-30-meeting-technical-discovery.md',

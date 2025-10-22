@@ -8,7 +8,7 @@ type: customer
 contacts:
   - "[[contacts/williams-sarah]]"
   - "[[contacts/patel-rajesh]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (408) 809-5100
 address: 100 Winchester Circle, Los Gatos, CA 95032, USA

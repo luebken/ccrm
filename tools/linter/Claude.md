@@ -75,12 +75,12 @@ cd tools/linter && node dist/cli.js [path] [options]
 - Type enum: prospect | customer | partner | vendor | other
 - Size enum: 1-10 | 11-50 | 51-200 | 201-500 | 501-1000 | 1000+
 
-**Deals:**
+**Opportunities:**
 - Required: name, stage, company, type, owner, created_at, updated_at
 - Filename: company-YYYY-qN-description.md
 - Stage enum: lead | qualified | proposal | negotiation | closed-won | closed-lost
 - Type enum: new-business | renewal | upsell | cross-sell
-- Business logic: closed deals require closed_at date
+- Business logic: closed opportunities require closed_at date
 
 **Activities:**
 - Required: type, subject, date, status, owner, created_at

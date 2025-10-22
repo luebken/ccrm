@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.5B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (310) 893-3100
 address: 12333 West Olympic Blvd, Los Angeles, CA 90064, USA

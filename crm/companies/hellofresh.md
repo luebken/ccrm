@@ -6,7 +6,7 @@ size: 1000+
 revenue: €7B+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +49 30 609846650
 address: Saarbrücker Str. 37a, 10405 Berlin, Germany

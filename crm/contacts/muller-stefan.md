@@ -5,7 +5,7 @@ email: stefan.mueller@contentful.com
 phone: +49-30-2000-8100
 title: Site Reliability Engineer
 company: "[[companies/contentful]]"
-deals: ["[[deals/contentful-2024-q1-content-analytics]]"]
+opportunities: ["[[opportunities/contentful-2024-q1-content-analytics]]"]
 owner: Lisa Wang
 tags: [cms, germany, sre, content-platform]
 created_at: "2024-01-08"

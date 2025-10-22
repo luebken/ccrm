@@ -6,7 +6,7 @@ size: 1000+
 revenue: $2.8B+
 type: prospect
 contacts: []
-deals: []
+opportunities: []
 owner: Rachel Kim
 phone: +1 (866) 679-9129
 address: 125 W 25th Street, New York, NY 10001, USA

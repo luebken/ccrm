@@ -5,7 +5,7 @@ email: chris.anderson@reddit.com
 phone: +1-415-756-4888
 title: Senior DevOps Engineer
 company: "[[companies/reddit]]"
-deals: ["[[deals/reddit-2024-q1-content-moderation]]"]
+opportunities: ["[[opportunities/reddit-2024-q1-content-moderation]]"]
 owner: Rachel Kim
 tags: [social-media, content-platform, devops]
 created_at: "2024-02-01"

@@ -7,7 +7,7 @@ revenue: $150M+
 type: customer
 contacts:
   - "[[contacts/davidson-sarah]]"
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (855) 254-3634
 address: 100 Montgomery Street, San Francisco, CA 94104, USA

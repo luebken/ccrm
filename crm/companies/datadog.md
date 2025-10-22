@@ -6,7 +6,7 @@ size: 1000+
 revenue: $1.7B+
 type: partner
 contacts: ["[[contacts/martinez-carlos]]"]
-deals: []
+opportunities: []
 owner: Mike Rodriguez
 phone: +1 (866) 329-4466
 address: 620 8th Avenue, 45th Floor, New York, NY 10018, USA

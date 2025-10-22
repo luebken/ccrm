@@ -6,7 +6,7 @@ size: 1000+
 revenue: $300M+
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Sarah Chen
 phone: +1 (208) 331-8100
 address: 777 W Main Street, Boise, ID 83702, USA

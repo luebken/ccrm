@@ -7,7 +7,7 @@ status: completed
 contacts:
   - "[[contacts/johnson-emma]]"
 company: "[[companies/reddit]]"
-deal: "[[deals/reddit-2024-q1-content-moderation]]"
+opportunity: "[[opportunities/reddit-2024-q1-content-moderation]]"
 owner: Lisa Wang
 outcome: Moderation challenges understood, technical fit validated
 next_action: Schedule demo with trust and safety team

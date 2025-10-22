@@ -5,7 +5,7 @@ email: dmitri.petrov@miro.com
 phone: +31-20-240-4000
 title: Senior Site Reliability Engineer
 company: "[[companies/miro]]"
-deals: []
+opportunities: []
 owner: Lisa Wang
 tags: [collaboration, whiteboard, sre, real-time]
 created_at: "2024-02-02"

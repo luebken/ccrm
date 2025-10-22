@@ -5,7 +5,7 @@ industry: Fintech
 size: 201-500
 type: customer
 contacts: []
-deals: []
+opportunities: []
 owner: Lisa Wang
 address: 56 Shoreditch High Street, London E1 6JJ, UK
 tags: [legacy-account, wise-predecessor, historical]
