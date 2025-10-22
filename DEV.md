@@ -37,9 +37,8 @@ Use CLAUDE.md when:
 - Wikilinks for relationships
 - Human-readable, git-friendly format
 
-**Tools Layer** (`/tools/`)
-- Python scripts for deterministic operations
-- Linter for data validation and consistency
+**Tools Layer**
+- validate-md skill for data validation and consistency
 - Future: importers, exporters, analyzers
 
 **AI Interface** (`CLAUDE.md`, `.claude/commands/`)
@@ -55,15 +54,13 @@ Use CLAUDE.md when:
 ├── README.md         # Project documentation
 ├── .claude/
 │   └── commands/     # Slash commands
-│       └── lint.md   # Linter command
-├── /crm/
-│   ├── crm.md        # Business context
-│   ├── /contacts/    # Contact entities
-│   ├── /companies/   # Company entities
-│   ├── /deals/       # Deal entities
-│   └── /activities/  # Activity entities
-└── /tools/
-    └── linter/       # Data validation tool
+│       └── lint.md   # Validation command
+└── /crm/
+    ├── crm.md        # Business context
+    ├── /contacts/    # Contact entities
+    ├── /companies/   # Company entities
+    ├── /deals/       # Deal entities
+    └── /activities/  # Activity entities
 ```
 
 ## Development Guidelines
@@ -78,16 +75,11 @@ Use CLAUDE.md when:
 1. **New Entity Types**
    - Update CLAUDE.md with schema
    - Add folder under `/crm/`
-   - Update linter to validate new type
+   - Add JSON schema file in the entity folder
+   - Update validate-md configuration to validate new type
    - Add examples to synthetic data
 
-2. **New Tools**
-   - Create under `/tools/`
-   - Make deterministic and idempotent
-   - Add slash command in `.claude/commands/`
-   - Document in README
-
-3. **New Slash Commands**
+2. **New Slash Commands**
    - Create `.claude/commands/command-name.md`
    - Write clear instructions for Claude
    - Test with various inputs
@@ -101,10 +93,10 @@ Use CLAUDE.md when:
 - Check YAML parsing
 - Validate git operations
 
-**Linter Testing**
-- Run against all entity types
-- Test edge cases (missing fields, invalid wikilinks)
-- Verify fix suggestions are correct
+**Schema Validation**
+- Run `/validate-md` against all entity types
+- Test edge cases (missing fields, invalid data types)
+- Verify validation errors are clear and actionable
 
 ### Documentation Standards
 
@@ -148,16 +140,10 @@ When adding example data:
 
 **Update Schema**
 1. Modify CLAUDE.md with new fields
-2. Update linter validation rules
+2. Update JSON schema files in entity folders
 3. Add examples to existing entities
-4. Document in README if user-facing
-
-**Add New Tool**
-1. Create tool directory under `/tools/`
-2. Write Python script with clear CLI interface
-3. Create slash command in `.claude/commands/`
-4. Add usage example to README
-5. Test with synthetic data
+4. Test with `/validate-md`
+5. Document in README if user-facing
 
 **Improve AI Instructions**
 1. Identify common failure patterns
@@ -212,7 +198,7 @@ When contributing:
 **Wikilink Issues**
 - Verify file naming matches wikilink paths
 - Check for typos in entity filenames
-- Run linter to find broken links
+- Run `/validate-md` to check data integrity
 
 **YAML Parsing Errors**
 - Validate YAML syntax (indentation, colons)

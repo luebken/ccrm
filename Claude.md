@@ -12,13 +12,6 @@ The system uses wikilinks for all entity relationships.
 
 * Minimize assumptions. Back all recomendations on the CRM data.
 
-## Tools
-
-### Dependencies
-
-* To install Python packages always use `uv`
-* To install Node packages always use `pnpm`
-
 ## Core Entities
 
 Contacts, Companies, Opportunities, Activities
