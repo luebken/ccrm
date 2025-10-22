@@ -33,6 +33,8 @@ claude .
 /plugin marketplace add anthropics/skills
 /plugin install document-skills@anthropic-agent-skills
 
+/plugin marketplace add luebken/claude-plugins
+/plugin install validate-md@luebken-claude-plugins
 # retart Claude to load plugins
 claude .
 ```
@@ -43,7 +45,7 @@ Some examples commands:
 
 > Create a PDF report of the latest deals.
 
-> /lint
+> /validate-md
 ```
 
 
@@ -60,9 +62,9 @@ All relationships use wikilinks (e.g., `[[companies/acme-corp]]`) for easy navig
 
 ## Tools & Workflow
 
-Users can freely edit the raw Markdown and use agent tools which work nicely with Markdown files. These agent tools require instructions. We have created an instruction file for [Claude Code](https://www.anthropic.com/claude-code): [CLAUDE.md](CLAUDE.md). 
+Users can freely edit the raw Markdown and use agent tools which work nicely with Markdown files. These agent tools require instructions. We have created an instruction file for [Claude Code](https://www.anthropic.com/claude-code): [CLAUDE.md](CLAUDE.md).
 
-With Claude you can trigger commands. We currently have implemented `/lint` which ensures data consistency and format compliance. See [tools/linter](tools/linter) and [.claude/commands/lint.md](.claude/commands/lint.md).
+With Claude you can trigger commands. The `/validate-md` command validates markdown files with YAML frontmatter against JSON Schema definitions to ensure data consistency and format compliance. This is provided by the [validate-md skill](https://github.com/luebken/claude-plugins).
 
 ### Obsidian
 

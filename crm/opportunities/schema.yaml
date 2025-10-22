@@ -1,0 +1,112 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://github.com/luebken/ccrm/schemas/opportunity.yaml"
+title: Opportunity
+description: Revenue opportunities and sales pipeline
+type: object
+required:
+  - name
+  - stage
+  - company
+  - type
+  - owner
+  - created_at
+  - updated_at
+additionalProperties: false
+
+properties:
+  hubspot_id:
+    type: string
+    description: Unique identifier for HubSpot integration
+
+  name:
+    type: string
+    minLength: 1
+    description: Opportunity name
+
+  stage:
+    type: string
+    enum:
+      - lead
+      - qualified
+      - proposal
+      - negotiation
+      - closed-won
+      - closed-lost
+    description: Current stage in the sales pipeline
+
+  amount:
+    type: number
+    minimum: 0
+    description: Opportunity value
+
+  probability:
+    type: number
+    minimum: 0
+    maximum: 100
+    description: Win probability (0-100)
+
+  expected_close_date:
+    type: string
+    format: date
+    description: Projected close date
+
+  company:
+    type: string
+    pattern: "^\\[\\[companies/[a-z0-9-]+\\]\\]$"
+    description: Company wikilink (one company per opportunity)
+
+  contacts:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[contacts/[a-z0-9-]+\\]\\]$"
+    description: Array of contact wikilinks
+
+  primary_contact:
+    type: string
+    pattern: "^\\[\\[contacts/[a-z0-9-]+\\]\\]$"
+    description: Main contact wikilink
+
+  owner:
+    type: string
+    minLength: 1
+    description: Owner name
+
+  type:
+    type: string
+    enum:
+      - new-business
+      - renewal
+      - upsell
+      - cross-sell
+    description: Opportunity type
+
+  tags:
+    type: array
+    items:
+      type: string
+    description: Array of tags
+
+  created_at:
+    type: string
+    format: date-time
+    description: Creation date
+
+  updated_at:
+    type: string
+    format: date-time
+    description: Last modified date
+
+  closed_at:
+    type: string
+    format: date-time
+    description: Actual close date (if closed)
+
+  lost_reason:
+    type: string
+    enum:
+      - competitor
+      - budget
+      - timing
+      - other
+    description: Reason if lost

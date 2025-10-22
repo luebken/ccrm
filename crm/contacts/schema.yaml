@@ -1,0 +1,85 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://github.com/luebken/ccrm/schemas/contact.yaml"
+title: Contact
+description: Individual people who are customers, prospects, or any business relationship
+type: object
+required:
+  - first_name
+  - last_name
+  - owner
+  - created_at
+  - updated_at
+additionalProperties: false
+
+properties:
+  hubspot_id:
+    type: string
+    description: Unique identifier for HubSpot integration
+
+  first_name:
+    type: string
+    minLength: 1
+    description: First name of the contact
+
+  last_name:
+    type: string
+    minLength: 1
+    description: Last name of the contact
+
+  email:
+    type: string
+    format: email
+    description: Email address
+
+  phone:
+    type: string
+    description: Phone number
+
+  title:
+    type: string
+    description: Job title
+
+  company:
+    type: string
+    pattern: "^\\[\\[companies/[a-z0-9-]+\\]\\]$"
+    description: Primary company wikilink (e.g., [[companies/acme-corp]])
+
+  companies:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[companies/[a-z0-9-]+\\]\\]$"
+    description: Array of company wikilinks for multiple affiliations
+
+  opportunities:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[opportunities/[a-z0-9-]+\\]\\]$"
+    description: Array of opportunity wikilinks
+
+  owner:
+    type: string
+    minLength: 1
+    description: Owner name (e.g., "Sarah Chen")
+
+  tags:
+    type: array
+    items:
+      type: string
+    description: Array of tags
+
+  created_at:
+    type: string
+    format: date-time
+    description: Creation date
+
+  updated_at:
+    type: string
+    format: date-time
+    description: Last modified date
+
+  last_contacted:
+    type: string
+    format: date-time
+    description: Date of last interaction

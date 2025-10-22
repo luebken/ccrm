@@ -1,0 +1,93 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://github.com/luebken/ccrm/schemas/activity.yaml"
+title: Activity
+description: Interactions and touchpoints with contacts and companies
+type: object
+required:
+  - type
+  - subject
+  - date
+  - status
+  - owner
+  - created_at
+additionalProperties: false
+
+properties:
+  hubspot_id:
+    type: string
+    description: Unique identifier for HubSpot integration
+
+  type:
+    type: string
+    enum:
+      - meeting
+      - call
+      - email
+      - note
+      - task
+    description: Activity type
+
+  subject:
+    type: string
+    minLength: 1
+    description: Activity title
+
+  date:
+    type: string
+    format: date-time
+    description: Activity date/time
+
+  duration:
+    type: integer
+    minimum: 0
+    description: Duration in minutes (for meetings/calls)
+
+  status:
+    type: string
+    enum:
+      - scheduled
+      - completed
+      - cancelled
+      - no-show
+    description: Activity status
+
+  contacts:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[contacts/[a-z0-9-]+\\]\\]$"
+    description: Array of contact wikilinks
+
+  company:
+    type: string
+    pattern: "^\\[\\[companies/[a-z0-9-]+\\]\\]$"
+    description: Company wikilink
+
+  opportunity:
+    type: string
+    pattern: "^\\[\\[opportunities/[a-z0-9-]+\\]\\]$"
+    description: Opportunity wikilink (if applicable)
+
+  owner:
+    type: string
+    minLength: 1
+    description: Owner name
+
+  outcome:
+    type: string
+    description: Brief outcome summary
+
+  next_action:
+    type: string
+    description: Follow-up action needed
+
+  tags:
+    type: array
+    items:
+      type: string
+    description: Array of tags
+
+  created_at:
+    type: string
+    format: date-time
+    description: Creation date
