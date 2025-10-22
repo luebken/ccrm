@@ -1,4 +1,4 @@
-# AI-CRM
+# CCRM
 
 A CRM that uses Markdown files with YAML front matter to represent all entities, making it version-controllable, human-readable, and AI-friendly.
 
@@ -24,8 +24,8 @@ by [@dexhorthy](https://github.com/dexhorthy). [See Claude for non-code tasks: ð
 The project contains synthetic sample data under /crm
 
 ```bash
-git clone git@github.com:luebken/ai-crm.git
-cd ai-crm
+git clone git@github.com:luebken/ccrm.git
+cd ccrm
 
 claude .
 
